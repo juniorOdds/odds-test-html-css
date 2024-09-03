@@ -14,28 +14,38 @@
             <h1>Register Form</h1>
         </section>
         <form action="">
-            <div class="form-left">
-                <label for=""> First Name: </label>
-                <input type="text">
-                <label for="">Birthday</label>
-                <input type="date">
-                <label for="">Email</label>
-                <input type="email">
-
-            </div>
-
-            <div class="form-right">
-                <label for=""> Last Name: </label>
-                <input type="text">
-                <label for="gender">Gender</label>
-                <div class="gender-group">
-                    <div><input type="radio" id="male" name="gender" value="male"> Male</div>
-                    <div><input type="radio" id="female" name="gender" value="female"> Female</div>
+            <section class="center">
+                <div class="form-left">
+                    <label for=""> First Name: </label>
+                    <input type="text">
+                    <label for="">Birthday</label>
+                    <input type="date">
+                    <label for="">Email</label>
+                    <input type="email">
                 </div>
-            </div>
-            <div class="form-bottom">
 
-            </div>
+                <div class="form-right">
+                    <label for=""> Last Name: </label>
+                    <input type="text">
+                    <label for="gender">Gender</label>
+                    <div class="gender-group">
+                        <div><input type="radio" id="male" name="gender" value="male"> Male</div>
+                        <div><input type="radio" id="female" name="gender" value="female"> Female</div>
+                    </div>
+                </div>
+            </section>
+            <section class="bottom">
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Choose option</option>
+                        <option value="option1">option1</option>
+                        <option value="option2">option2</option>
+                        <option value="option3">option3/option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </section>
         </form>
     </main>
 </body>
