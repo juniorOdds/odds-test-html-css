@@ -40,6 +40,11 @@ main {
         display: flex;
         flex-direction: column;
         flex: 1;
+        &>.gender-group{
+          display: flex;
+          flex-direction: row;
+          
+        }
       }
     }
   }
