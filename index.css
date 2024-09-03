@@ -81,6 +81,18 @@ main {
 
 #submit-button {
   width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  outline: none;
+  background-color: #5e74d6;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background-color: #37478e;
+  }
 }
 input {
   width: 100%;
