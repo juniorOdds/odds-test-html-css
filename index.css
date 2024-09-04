@@ -13,6 +13,7 @@ body {
   background: linear-gradient(to bottom, #d45e80, #3e0c3f);
 }
 main {
+    
   padding: 7%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -123,12 +124,13 @@ select {
 }
 
 
+
 @media screen and (max-width: 600px) {
   body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
     & > main {
       width: 90%;
 
@@ -163,7 +165,7 @@ select {
       }
     }
   }
-  input{
+  input {
     min-width: 70px;
   }
 }
